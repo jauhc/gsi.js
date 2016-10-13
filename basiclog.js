@@ -16,17 +16,13 @@ function getActiveWeapon(obj) {
 }
 
 function teamName(teamcode) {
-    var fullteamname;
     if (teamcode == "T") {
-        fullteamname = "Terrorist";
-        return fullteamname;
+        return "Terrorist";
     }
     if (teamcode == "CT") {
-        fullteamname = "Counter-Terrorist";
-        return fullteamname;
+        return "Counter-Terrorist";
     } else {
-        fullteamname = "unassigned";
-        return fullteamname;
+        return "unassigned";
     }
 }
 
